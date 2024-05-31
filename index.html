@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JS Practice</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JS Practice</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+	<body>
+		<p>
+			Your current balance is: KSH
+			<strong><span id="balance">1000</span></strong>
+		</p>
+		<p>Enter the amount that you would like to deposit:</p>
+		<!-- <form id="deposit-form"> -->
+		<input type="number" id="amount" />
+		<button id="deposit-btn" type="submit">Deposit</button>
+		<button id="withdraw-btn" type="submit">Withdraw</button>
+		<p id="error"></p>
+		<p id="success"></p>
 
-<body>
+		<p id="error2"></p>
+		<p id="success2"></p>
+		<!-- </form> -->
 
-  <p>Your current balance is: KSH <strong><span id="balance">1000</span></strong></p>
-  <p>Enter the amount that you would like to deposit:</p>
-  <!-- <form id="deposit-form"> -->
-  <input type="number" id="amount">
-  <button id="deposit-btn" type="submit">Deposit</button>
-  <!-- </form> -->
-
-  <script src="script.js"></script>
-</body>
-
+		<script src="script.js"></script>
+	</body>
 </html>
